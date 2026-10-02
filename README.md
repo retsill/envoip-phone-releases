@@ -25,6 +25,17 @@ También está la versión portable `EnVoIP-Phone-Windows-vX.Y.Z.zip`: descompr�
    Abrir igualmente*.
 4. La primera llamada pedirá permiso para el **micrófono**.
 
+## Descargar para Android y Chromebook
+
+1. En **[Releases](https://github.com/retsill/envoip-phone-releases/releases/latest)** descarga **`EnVoIP-Phone-X.Y.Z.apk`**
+   (Android 7.0 o superior; Chromebooks Intel/AMD y ARM).
+2. **Android:** ábrelo desde Descargas y permite «Instalar apps desconocidas» para el navegador o el gestor de archivos.
+3. **Chromebook:** Google Play debe estar activado. Abre el `.apk` desde la app *Archivos*. Si ChromeOS no ofrece
+   instalarlo, actívalo en *Configuración → Acerca de ChromeOS → Desarrolladores → Entorno de desarrollo de Linux →
+   Desarrollar apps para Android → Habilitar la depuración de ADB*, y luego en la terminal de Linux:
+   `sudo apt install -y adb && adb connect arc && adb install EnVoIP-Phone-X.Y.Z.apk`.
+4. La primera llamada pedirá permiso para el **micrófono**.
+
 ## Primeros pasos
 
 - **Líneas** (Ajustes → Líneas → Añadir → *Vicidial / ViciBox*): IP o dominio del servidor, la extensión y su

@@ -46,9 +46,11 @@ También está la versión portable `EnVoIP-Phone-Windows-vX.Y.Z.zip`: descompr�
 
 ## Funciones
 
-- Varias líneas SIP sobre WebSocket seguro (WSS) con audio WebRTC cifrado.
+- Varias líneas: Vicidial/ViciBox o cualquier centralita VoIP con WebRTC (Asterisk, FreePBX, Issabel, VitalPBX,
+  FreeSWITCH…) por WebSocket seguro (WSS), WebSocket (WS) o SIP por TCP, con el puerto que uses. Audio WebRTC cifrado.
 - Llamadas: marcar, contestar/rechazar, silencio, espera, DTMF, transferir, varias llamadas, tono de espera.
-- Contactos locales con favoritos y búsqueda.
+- Contactos en dos grupos: los de EnVoIP Phone (con favoritos) y los del teléfono o del Mac (con permiso).
+  En Windows y Mac se pueden importar desde un archivo `.vcf`.
 - SMS/MMS: servidor EnVoip System, API de VoIP.ms o SIP MESSAGE.
 - Historial, selección de micrófono y altavoz, tema claro/oscuro, inglés y español.
 
